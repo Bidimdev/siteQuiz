@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <main class="quiz">
+        <header class="quiz__intro">
+            <p class="quiz__eyebrow">Desafio de conhecimentos</p>
+            <h1 class="quiz__title">Quiz de programação</h1>
+            <p class="quiz__description">Teste seus conhecimentos em programação com este quiz!</p>
+        </header>
+        <div class="quiz__score" aria-live="polite">
+            <p class="quiz__score-label">Pontuação</p>
+            <span class="quiz__score-value" id="score">0</span>
+        </div>
+        <button class="quiz__button quiz__button--start" id="start-Quiz">Iniciar Quiz</button>
+        
+        <section class="quiz__question" id="question-1">
+            <p class="quiz__question-number">Questão 1</p>
+            <p class="quiz__prompt">Qual é a capital do Brasil?</p>
+            <div class="quiz__answers">
+                <button class="quiz__answer">
+                    <span class="quiz__answer-letter">A</span>
+                    <span class="quiz__answer-text">Rio de Janeiro</span>
+                </button>
+                <button class="quiz__answer">
+                    <span class="quiz__answer-letter">B</span>
+                    <span class="quiz__answer-text">Acre</span>
+                </button>
+                <button class="quiz__answer">
+                    <span class="quiz__answer-letter">C</span>
+                    <span class="quiz__answer-text">Bahia</span>
+                </button>
+                <button class="quiz__answer">
+                    <span class="quiz__answer-letter">D</span>
+                    <span class="quiz__answer-text">Brasília</span>
+                </button>
+                <button class="quiz__answer">
+                    <span class="quiz__answer-letter">E</span>
+                    <span class="quiz__answer-text">Paraná</span>
+                </button>
+                <button class="quiz__answer">
+                    <span class="quiz__answer-letter">F</span>
+                    <span class="quiz__answer-text">Minas Gerais</span>
+                </button>
+            </div>
+        </section>
+
+        <section class="quiz__question" id="question-2">
+            <p class="quiz__question-number">Questão 2</p>
+            <p class="quiz__prompt">Qual é menor estado do Brasil?</p>
+            <div class="quiz__answers">
+                <button class="quiz__answer">
+                    <span class="quiz__answer-letter">A</span>
+                    <span class="quiz__answer-text">Rio de Janeiro</span>
+                </button>
+                <button class="quiz__answer">
+                    <span class="quiz__answer-letter">B</span>
+                    <span class="quiz__answer-text">Acre</span>
+                </button>
+                <button class="quiz__answer">
+                    <span class="quiz__answer-letter">C</span>
+                    <span class="quiz__answer-text">Bahia</span>
+                </button>
+                <button class="quiz__answer">
+                    <span class="quiz__answer-letter">D</span>
+                    <span class="quiz__answer-text">Brasília</span>
+                </button>
+                <button class="quiz__answer">
+                    <span class="quiz__answer-letter">E</span>
+                    <span class="quiz__answer-text">Paraná</span>
+                </button>
+                <button class="quiz__answer">
+                    <span class="quiz__answer-letter">F</span>
+                    <span class="quiz__answer-text">Minas Gerais</span>
+                </button>
+            </div>
+        </section>
+
+        <section class="quiz__question" id="question-3">
+            <p class="quiz__question-number">Questão 3</p>
+            <p class="quiz__prompt">Qual éo maior estado do Brasil?</p>
+            <div class="quiz__answers">
+                <button class="quiz__answer">
+                    <span class="quiz__answer-letter">A</span>
+                    <span class="quiz__answer-text">Rio de Janeiro</span>
+                </button>
+                <button class="quiz__answer">
+                    <span class="quiz__answer-letter">B</span>
+                    <span class="quiz__answer-text">Acre</span>
+                </button>
+                <button class="quiz__answer">
+                    <span class="quiz__answer-letter">C</span>
+                    <span class="quiz__answer-text">Bahia</span>
+                </button>
+                <button class="quiz__answer">
+                    <span class="quiz__answer-letter">D</span>
+                    <span class="quiz__answer-text">Brasília</span>
+                </button>
+                <button class="quiz__answer">
+                    <span class="quiz__answer-letter">E</span>
+                    <span class="quiz__answer-text">Paraná</span>
+                </button>
+                <button class="quiz__answer">
+                    <span class="quiz__answer-letter">F</span>
+                    <span class="quiz__answer-text">Minas Gerais</span>
+                </button>
+            </div>
+        </section>
+
+        <button class="quiz__button quiz__button--start" id="finish-quiz" type="button">
+            Finalizar Quiz
+        </button>
+
+    </main>
+    <script src="script/quiz.js"></script>
+</body>
+
+</html>
